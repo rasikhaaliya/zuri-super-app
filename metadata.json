@@ -1,0 +1,6 @@
+{
+    "name": "ZURI Super App Prototype",
+    "description": "Functional, high-fidelity web-app prototype for ZURI Super App by Zurich.",
+    "requestFramePermissions": ["camera"],
+    "majorCapabilities": []
+  }
