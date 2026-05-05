@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import Onboarding from './components/Onboarding';
+import Onboarding from '.../components/Onboarding';
 import Dashboard from './components/Dashboard';
 import Insurance from './components/Insurance';
 import Health from './components/Health';
