@@ -1,3 +1,29 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #003399; /* Zurich Blue */
+  --color-secondary: #0d9488; /* Soft Teal */
+  --color-zuri-bg: #fdfcfb; /* Natural White */
+  
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+body {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-family: var(--font-sans);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(156, 163, 175, 0.3);
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(156, 163, 175, 0.5);
+}
