@@ -4,15 +4,15 @@
  */
 
 import React, { useState } from 'react';
-import Onboarding from '.../components/Onboarding';
-import Dashboard from './components/Dashboard';
-import Insurance from './components/Insurance';
-import Health from './components/Health';
-import Partners from './components/Partners';
-import Profile from './components/Profile';
-import Hospital from './components/Hospital';
+import Onboarding from '../components/Onboarding';
+import Dashboard from '../components/Dashboard';
+import Insurance from '../components/Insurance';
+import Health from '../components/Health';
+import Partners from '../components/Partners';
+import Profile from '../components/Profile';
+import Hospital from '../components/Hospital';
 import { Home, Activity, ShieldCheck, Users, User, MessageSquare } from 'lucide-react';
-import { motion } from 'motion/react';
+// import { motion } from 'motion/react';
 
 export type Screen = 'onboarding' | 'dashboard' | 'insurance' | 'health' | 'partners' | 'hospital' | 'profile';
 
