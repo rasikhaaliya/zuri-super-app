@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion } from 'motion/react';
+import { motion } from "framer-motion";
 import { Search, ExternalLink, ActivitySquare } from 'lucide-react';
 
 export default function Partners() {

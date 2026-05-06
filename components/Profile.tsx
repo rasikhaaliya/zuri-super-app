@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'motion/react';
+import { motion } from "framer-motion";
 import { User, Settings, ShieldCheck, CreditCard, LogOut, HeartHandshake } from 'lucide-react';
 
 export default function Profile() {

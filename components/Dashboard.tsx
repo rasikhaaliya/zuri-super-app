@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'motion/react';
+import { motion } from "framer-motion";
 import { Heart, ShieldCheck, PhoneCall, Building2, Users, AlertTriangle, ArrowRight, MessageSquare } from 'lucide-react';
 import type { Screen } from '../App';
 

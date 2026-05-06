@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion } from "framer-motion";
 import { ShieldCheck, Zap, Info, Bot, HeartHandshake, CheckCircle2, FileText, UploadCloud, Clock, AlertTriangle, Activity } from 'lucide-react';
 
 export default function Insurance() {
