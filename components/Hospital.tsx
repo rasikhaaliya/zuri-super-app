@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from 'motion/react';
 import { Search, ExternalLink, Building2, MapPin } from 'lucide-react';
 
 export default function Hospital() {

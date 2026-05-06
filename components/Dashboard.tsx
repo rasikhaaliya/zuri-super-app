@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion } from "framer-motion";
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'motion/react';
 import { Heart, ShieldCheck, PhoneCall, Building2, Users, AlertTriangle, ArrowRight, MessageSquare } from 'lucide-react';
 import type { Screen } from '../App';
 

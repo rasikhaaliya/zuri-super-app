@@ -12,7 +12,7 @@ import Partners from '../components/Partners';
 import Profile from '../components/Profile';
 import Hospital from '../components/Hospital';
 import { Home, Activity, ShieldCheck, Users, User, MessageSquare } from 'lucide-react';
-// import { motion } from 'motion/react';
+import { motion } from 'motion/react';;
 
 export type Screen = 'onboarding' | 'dashboard' | 'insurance' | 'health' | 'partners' | 'hospital' | 'profile';
 
